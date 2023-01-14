@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+input {
+    margin: 5px;
+    background-color: WHITE;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.boxes{
+    display: flex;
+    margin-left: 32px;
+    margin-bottom: 46px;
+    margin-top: 65px;
+}
+button{
+    margin-left: 30px;
+    width: 120px;
+    height: 47px;
+    font-size: large;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.lower-text{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+}
+
+table {
+    width: 50%;
+    margin-left: 30px;
+    border: 1px solid white;
+    
+}
+table:hovew{
+    border: none;
+}
+#head{
+    margin-left: 30px;
+    margin-top: 10px;
+}
